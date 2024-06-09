@@ -30,8 +30,8 @@ export default defineSchema({
     }),
   users: defineTable({
     email: v.string(),
-    imgUrl: v.string(),
+    imageUrl: v.string(),
     clerkId: v.string(),
-    username: v.string(),
+    name: v.string(),
   }),
 });
